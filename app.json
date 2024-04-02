@@ -10,6 +10,10 @@
     "success_url": "https://t.me/kenapanan",
     "stack": "container",
     "env": {
+        "bot_token": {
+            "description": "Au ya cek token bot",
+            "required": true
+        },
         "api_id": {
             "description": "Au ya cek my.telegram.org",
             "required": true
